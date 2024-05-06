@@ -1,0 +1,61 @@
+/* Reset CSS básico para remover margens e preenchimentos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo básico para o corpo */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  line-height: 1.6;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilo para o conteúdo principal */
+.container {
+  padding: 20px 0;
+}
+
+/* Estilo para o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+footer p {
+  font-size: 14px;
+}
